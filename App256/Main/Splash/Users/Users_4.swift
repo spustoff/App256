@@ -16,10 +16,10 @@ struct Users_4: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg_2")
                 .ignoresSafeArea()
             
-            Image("reviewers_1")
+            Image("users_4")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
@@ -27,12 +27,12 @@ struct Users_4: View {
                 
                 VStack(alignment: .center, spacing: 8, content: {
                     
-                    Text("Signal Catalog")
+                    Text("Don’t miss anything")
                         .foregroundColor(.white)
                         .font(.system(size: 23, weight: .semibold))
                         .multilineTextAlignment(.center)
                     
-                    Text("Choose profitable strategies")
+                    Text("Don’t miss the most userful information")
                         .foregroundColor(.gray)
                         .font(.system(size: 15, weight: .regular))
                         .multilineTextAlignment(.center)
@@ -83,6 +83,11 @@ struct Users_4: View {
                 Spacer()
             }
             .padding()
+            
+            Image("users_44")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 290, height: 290)
         }
     }
 }

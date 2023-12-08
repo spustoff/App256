@@ -13,7 +13,7 @@ struct Reviewers_2: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg_2")
                 .ignoresSafeArea()
             
             Image("reviewers_2")

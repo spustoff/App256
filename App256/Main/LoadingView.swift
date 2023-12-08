@@ -13,7 +13,7 @@ struct LoadingView: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg_2")
                 .ignoresSafeArea()
             
             Image("logo_big")

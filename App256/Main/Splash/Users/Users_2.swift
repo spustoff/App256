@@ -17,12 +17,13 @@ struct Users_2: View {
         
         ZStack {
             
-            Color("bg")
+            Color("bg_2")
                 .ignoresSafeArea()
             
             Image("users_2")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea(.all, edges: .bottom)
             
             VStack {
                 
